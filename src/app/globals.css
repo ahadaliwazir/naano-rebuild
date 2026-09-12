@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: #FCFCFB;
+  --charcoal: #17181C;
+  --border-color: #E8E6E2;
+}
+
+body {
+  background-color: var(--canvas);
+  color: var(--charcoal);
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5D3CE;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B6B4AF;
+}
+
+/* Subtle glassmorphism */
+.glass-nav {
+  background: rgba(252, 252, 251, 0.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* Subtle mask for marquee fade edges */
+.mask-marquee {
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 8%, #000 92%, transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 8%, #000 92%, transparent 100%);
+}
