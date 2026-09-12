@@ -8,7 +8,8 @@ This project delivers both the **marketing surface** and the **interactive core 
 
 ## 🚀 Live Demo & Quick Links
 
-* **Live Deployment**: Ready for 1-click deployment on [Vercel](https://vercel.com)
+* **Live Deployment**: [https://naano-rebuild-sable.vercel.app](https://naano-rebuild-sable.vercel.app)
+* **GitHub Repository**: [https://github.com/ahadaliwazir/naano-rebuild](https://github.com/ahadaliwazir/naano-rebuild)
 * **Local Run**: `npm run dev` (starts on `http://localhost:3000`)
 
 ---
